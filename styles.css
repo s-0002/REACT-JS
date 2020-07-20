@@ -1,0 +1,110 @@
+.main{
+	width: 100%;
+	background-image:url(pic_trulli.jpg) ;
+
+}
+#wrapper{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.child{
+	/* width: 15%; */
+	border: 2px solid brown;
+	text-align: left;
+	border-radius: 1%;
+	box-shadow: 0px 4px 4px 4px ;
+	margin-bottom: 1%;
+	background: white;
+	/* flex: 1; */
+	flex-basis: 22%;
+}
+.child1{
+	/* width: auto; */
+	border: 2px solid brown;
+	text-align: left;
+	border: 10%;
+    padding: 10px;
+    border-radius: 1%;
+	box-shadow: 0px 4px 4px 4px ;
+	margin-bottom: 1%;
+    background: white;
+	margin-left: 1px;
+	flex-basis: 72%;
+}
+/* .details{
+	width: 93%;
+	border: 2px solid #848484;
+	text-align: bottom;
+	border: 10%;
+    padding: 30px;
+    border-radius: 1%;
+	box-shadow: 0px 8px 8px 8px white;
+	text-align: right;
+	 background-color: white;
+	} */
+
+	.details{
+		width: 90%;
+		border-radius: 1%;
+		border: 2px solid brown;
+		padding: 30px;
+		box-shadow: 0px 8px 8px 8px white;
+		background: white;
+		text-align: left;
+		margin-bottom: 1%;
+	}
+
+	.details span{
+		margin-left: 10px !important;
+	}
+.child img{
+    width: 30%;
+}
+
+}
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    border-radius: 70%;
+    
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+.child{
+	width: 100%;
+
+}
+h2{
+	color: #0101df;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+.child{
+	width: 48%;
+
+}
+h2{
+	color: #80ff00;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px){
+.child{
+	width: 48%;
+
+}
+h2{
+	color: red;
+}
+
+}
+
+.details span{
+	margin-left: -60px;
+
+}
+
+
+
+
